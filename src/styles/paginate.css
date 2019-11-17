@@ -1,0 +1,32 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  list-style: none;
+  width: 75%;
+  margin: auto;
+  padding: 50px;
+  font-size: 20px;
+}
+
+.pagination > li {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination > li:focus {
+  outline: none;
+}
+
+.active {
+  background-color: cornflowerblue;
+}
+
+.disable {
+  background-color: red;
+}
